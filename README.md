@@ -1,2 +1,2 @@
 # keyswebsite
-creating my own personal website from scratch 
+creating my personal portfolio 
