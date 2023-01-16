@@ -1,16 +1,172 @@
-<!DOCTYPE html>
-<html lang= 'en'>
-<head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title> Kiara Saahfon's Personal Portfolio Website</title>
-    <link rel="stylesheet" href="style.css">
-</head>
-<body>
-    <div class = "keykey"> 
-  
-</body> 
-</html>
+<!doctype html>
 
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv = "X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title> Kiara's Portfolio </title>
+        <link rel="stylesheet" href="styles.css">
+        <script src="https://kit.fontawesome.com/3c2928e305.js" crossorigin="anonymous"></script>
+    </head>
+
+    <body>
+        <div class = "mainstuff" id = "intro" > 
+            <nav> 
+                <h2 class = "logo"><span> KS </span>|Kiara Saahfon</h2> 
+                <ul>
+                    <li><a href="#intro">HOME</a></li>
+                    <li><a href="#about">ABOUT</a></li>
+                    <li><a href="#portfolio">PORTFOLIO</a></li>
+                    <li><a href="#contact">CONTACT</a></li>
+                </ul>
+            </nav>
+            <div class = "intro">
+                <div class = "type" id= "typingstuff">  </div> 
+                <h1> I am Kiara <span> Saahfon </span></h1> <!span is used to apply styles to a small part of a text> 
+                <p> Welcome to my Online Portfolio, here you can learn more about me <br> and follow my journey as a computer science student. </p>
+            <a href = "/" > VIEW MY RESUME </a>
+            </div>
+        </div>
+        <section class = "about" id = "about"> 
+            <div class = "main"> 
+                <img src = "https://i.pinimg.com/736x/27/f0/9f/27f09fcf4874a796899e3706788ad2d3.jpg" alt = "enjoy a photo of our favourite bratz dolls until I figure out what to do">
+                <div class ="about-text">
+                    <h2> About Me </h2> 
+                    <h5> First-Year Uottawa Computer Science Major </h5>
+                    <p> Hello I am a first year student at the University of Ottawa pursing a bachelors degree in computer science. Some of my interest's related to my field of study include, web-development, game-development and artficial intelligence. <br><br> I am a progress focused individual with a stromng work ethic and a love for learning. Upon starting my programming journey 3 years ago through an afterschool club, I've become profficient in webdevelopment langauges such as HTML,CSS and Javascript. I am also profficient in Python and I am currently learning Java. <br><br> In my free time I enjoy reading, playing board games and spending time with my loved ones. I am also passionate about giving back to my community. I a proud member of For The Children, a philatrophic club at the university of ottawa with the mission of raising funds for the development of children in Kenya </p>
+                </div>
+            </div>
+        </section>
+        <section class = "skills" id = "portfolio"> 
+            <div class = "skillsmain">  
+                    <h2> Skills </h2> 
+            </div>
+            <div class = "skills-container">  
+                <div class = "web"> 
+                    <h3> Web Development </h3>
+                    <ul> 
+                        <li> Html </li>
+                        <li> CSS </li>
+                        <li> Javascript </li>
+                        <li style = "color: #EEE5E9"> Python </li> 
+                        <li style = "color: #EEE5E9"> Java </li>
+                    </ul>
+                </div> 
+                <div class = "soft"> 
+                    <h3> Soft Skills </h3>
+                    <ul> 
+                        <li> Excellent Communicator </li>
+                        <li> Great Problem Solver  </li>
+                        <li> Strong Work Ethic </li>
+                        <li> Works well under pressure </li> 
+                        <li> Great Time management> </li> 
+                    </ul> 
+                </div>
+                <div class = "prog"> 
+                    <h3> Programming Languages </h3>
+                    <ul> 
+                       <li> Python </li>
+                       <li> Java  </li>
+                       <li style = "color: #EEE5E9"> Python </li>
+                       <li style = "color: #EEE5E9"> Java  </li>
+                       <li style = "color: #EEE5E9"> Python </li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+        <section class = "contact" id = "contact"> 
+            <div class = "container">
+                <div class = "contactInfo"> 
+                    <div class = "box"> 
+                        <div class = "text"> 
+                            <h1> Contact Me! </h1> 
+                        </div>
+                    </div>
+                    <div class = "box"> 
+                        <div class = "text"> 
+                            <p><i class="fa-solid fa-envelope"></i> ksaah025@uottawa.ca </p>
+                        </div>
+                    </div>
+                    <div class = "box"> 
+                        <div class = "text"> 
+                            <p> <i class="fa-solid fa-phone-volume"></i> 6138900142 </p>
+                        </div>
+                    </div>
+                </div>
+                <div class ="contactForm"> 
+                    <form id = "myform" name = "submit-to-google-sheet"> 
+                        <h2> Would love to hear from you </h2>
+                        <div class = "inputBox"> 
+                            <input type = "text" name = "Name" placeholder="Your Name">
+                        </div>
+                        <div class = "inputBox"> 
+                            <input type = "email" name = "Email" placeholder="Your Email">
+                        </div>
+                        <div class = "inputBox"> 
+                            <textarea name = "Message" rows = "6" placeholder= "Your Message"></textarea>
+                        </div>
+                        <div class = "inputBox">
+                            <button id= "submit" type ="submit">Send</button>
+                        </div>
+                     </form>
+                </div> 
+            </div>
+        </section>
+
+
+
+        <footer> 
+            <div class = "footer-content">
+                <h3> Kiara Saahfon's Portfolio </h3> 
+                <p> Check out my github and linkedin </p> 
+                <ul class = "socials"> 
+                    <li><a href = 'https://github.com/kiarasaahfon25'><i class="fa-brands fa-github"></i></a></li>
+                    <li><a href = 'www.linkedin.com/in/kiara-saahfon-5a717b255'><i class="fa-brands fa-linkedin"></i></a></li>
+                </ul>
+            </div>
+            <div class = "footer-bottom">
+                <p> copyright &copy;2022 kiaraSaahfonportfolio. designed by Kiara Saahfon</p>
+            </div>
+        </footer>
+
+
+        <!-- Load extrnal JavaScripMt -->
+
+        <script>
+            const typing = document.getElementById("typingstuff");
+            let text = "Hello!";
+            let i = 0;
+            
+            function type() {
+                if (i < text.length) {
+                    typing.innerHTML += text.charAt(i);
+                     i++;
+                     setTimeout(type, 100);
+                }
+            }
+
+            type();
+        </script> 
+        <script>
+            const scriptURL = 'https://script.google.com/macros/s/AKfycbzIILusvo2G8VgvjLEPxhAhaGYLA1vJsn8uVzoT5nurq9TlMzDv26CI9RzGf55xRgAWAA/exec'
+            const form = document.forms['submit-to-google-sheet']
+
+            form.addEventListener('submit', e => {
+                e.preventDefault()
+                fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+                    .then(response => {
+                        form.reset()
+                        alert('Success!')
+                    })
+                    .catch(error => console.error('Error!', error.message))
+            })
+        </script>
+
+
+
+    </body>
+
+</html>
 
 
