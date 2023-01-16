@@ -104,22 +104,10 @@ span{
     height: auto;
     width: 374px; 
 }
-.intro img{ 
-    height: 125px;
-    width: 374px; 
-}
 .about-text{ 
     width: 445px; 
 }
 .main{ 
-    width: 1130px; 
-    max-width: 95%; 
-    margin: 0 auto; 
-    display: flex; 
-    align-items: center;
-    justify-content: space-around; 
-}
-.intro{ 
     width: 1130px; 
     max-width: 95%; 
     margin: 0 auto; 
