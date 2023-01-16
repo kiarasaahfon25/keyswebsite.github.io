@@ -11,6 +11,19 @@
     height: 100vh; 
     background: #EEE5E9;  
 }
+.mainpageimage{ 
+    width: 45%; 
+    height: 80%;  
+    position: absolute; 
+    bottom:0; 
+    right: 100px; 
+} 
+.mainpageimage img{ 
+     height: 100%; 
+     position: absolute; 
+     left: 50%; 
+     bottom: 0; 
+}   
 nav{ 
     display: flex; 
     width: 84%; 
