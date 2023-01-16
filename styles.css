@@ -1,0 +1,348 @@
+*
+{ 
+    margin: 0; 
+    padding: 0; 
+    font-family: sans-serif; 
+    box-sizing: border-box;  
+} 
+.mainstuff{ 
+    position: relative; 
+    width: 100%; 
+    height: 100vh; 
+    background: #EEE5E9;  
+}
+nav{ 
+    display: flex; 
+    width: 84%; 
+    margin: auto; 
+    padding: 20px 0; 
+    align-items: center; 
+    justify-content: space-between;
+}
+nav ul li{ 
+    display: inline-block; 
+    list-style: none; 
+    margin: 10px 20px;
+}
+nav ul li a{ 
+    text-decoration: none;
+    color: #2B303A; 
+    font-weight: bold; 
+
+}
+nav ul li a:hover{ 
+    color: #EF5B5B;  /*for when you hover on the bottons*/
+}
+.intro{ 
+    margin-left: 8%; /*controls how high or how low you want this to be*/
+    margin-top: 15%;
+}
+
+.intro h1{ 
+    font-size: 50px; 
+    color: #2B303A; 
+    margin-bottom: 20px; 
+    margin-top: 20px; 
+}
+
+span{ 
+    color: #EF5B5B;   
+}
+.type { 
+    color: #2B303A; 
+    line-height: 22px;
+    font-size: 25px; 
+    animation: typing 0.5s steps(20) infinite;
+}
+/*when the animation is applied to an element, the element will change its width property from 0 to its original value over the course of 0.5 seconds, creating the appeareance of text being typed on the screen */
+@keyframes typing {  /* create appearence of text being typed on screen, the steps(20) value causes the animation to update the "width" propety in 20 equal increments, giving impression of moving cursor*/
+    from {     /*@keyframes helps define the stages of animation, width is a rule that specifies the properties of the animation at diffrent stages*/
+        width: 0; 
+    }
+}
+.intro p{ 
+    color: #2B303A; 
+    line-height: 22px; 
+}
+
+.intro a{ 
+    background: #2B303A; 
+    padding: 10px 18px; 
+    text-decoration: none; 
+    font-weight: bold; 
+    color: #fff; 
+    display: inline-block; 
+    margin: 30px 0; 
+    border-radius: 5px; 
+}
+.logo{ 
+    color: #2B303A; 
+    font-size: 25px; 
+    letter-spacing: 1px; 
+    cursor: pointer; 
+}
+.about{ 
+    width: 100%; 
+    padding: 70px 0px; 
+    background-color: #EEE5E9; 
+    position: relative; 
+}
+.about img{ 
+    height: auto;
+    width: 374px; 
+}
+.about-text{ 
+    width: 445px; 
+}
+.main{ 
+    width: 1130px; 
+    max-width: 95%; 
+    margin: 0 auto; 
+    display: flex; 
+    align-items: center;
+    justify-content: space-around; 
+}
+.about-text h2{ 
+    color: #2B303A; 
+    font-size: 50px; 
+    text-transform: capitalize; 
+    margin-bottom: 20px; 
+}
+.about-text h5{ 
+    color: #2B303A; 
+    letter-spacing: 2px; 
+    font-size: 20px; 
+    margin-bottom: 25px; 
+    text-transform: capitalize;
+}
+
+.about-text p{ 
+    color: #2B303A; 
+    letter-spacing: 1px; 
+    line-height: 28px; 
+    font-size: 16px; 
+    margin-bottom: 45px; 
+}
+
+footer{
+    background:#2B303A; 
+    color: #EEE5E9;
+    width: 100%; 
+    padding: 20px 0; 
+    height: 30%;  
+}
+.footer-content{
+    display: flex;  
+    align-items: center; 
+    justify-content: center;
+    flex-direction: column; 
+    text-align: center; 
+}
+.footer-content h3{  
+    color: #fff; 
+    margin-top: 2px;
+}
+.footer-content p{ 
+    margin: 10px auto; 
+    line-height: 28px;
+    font-size: 13px;
+}
+.socials{
+    list-style: none; /*gets rid of the bullets */ 
+    display: flex; /*side by sode */
+    align-items: center; 
+    justify-content: center; 
+    margin: 1rem 0 3rem; 
+ }
+ .socials li{ 
+     margin: 0 10px; 
+ }
+.socials a{ 
+    text-decoration: none; 
+    color: #fff; 
+}
+.socials a i{ 
+    font-size: 1.1rem;
+    transition: color .4s ease; 
+}
+.socials a:hover i{ 
+    color: #EF5B5B;
+}
+.footer-bottom { 
+    background-color: #2B303A;
+    text-align: center;
+}
+.footer-bottom p{ 
+    font-size: 14px; 
+    word-spacing: 2px;
+    text-transform: capitalize;
+}
+.skills{
+    width: 100%; 
+    padding: 40px 0px; 
+    background-color: #EEE5E9; 
+} 
+.skillsmain h2{ 
+    color: #2B303A; 
+    font-size: 50px; 
+    text-transform: capitalize; 
+    margin-bottom: 25px; 
+    text-align: center; 
+    align-items: center;
+}
+
+.skills .skills-container{ 
+    width: 1130px; 
+    max-width: 95%; 
+    margin: 0 auto; 
+    display: flex; 
+    align-items: center;
+    justify-content: space-around; 
+    margin-bottom: 50px ;
+}
+.web ul{ 
+    list-style-type: square;
+    color: #2B303A;
+}
+.skills-container .web h3{ 
+    margin-top: 20px; 
+    margin-bottom: 10px;
+    color: #2B303A; 
+} 
+
+.soft ul{ 
+    list-style-type: square;
+    color: #2B303A;
+}
+
+.skills-container .soft h3{ 
+    margin-top: 20px; 
+    margin-bottom: 10px; 
+    color: #2B303A; 
+} 
+
+.prog ul{ 
+    list-style-type: square;
+    color: #2B303A; 
+}
+
+.skills-container .prog h3{ 
+    margin-top: 20px; 
+    margin-bottom: 10px; 
+    color: #2B303A; 
+} 
+
+.contact { 
+    position: relative;
+    min-height: 50vh;
+    padding:50px 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;  
+    width: 100%;  
+    background: #EEE5E9;  
+}
+.container{ 
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.container .contactInfo { 
+    width: 48%; 
+    display: flex; 
+    flex-direction: column;
+}
+.container .contactInfo .box{ 
+    position: relative;
+    padding: 20px 0; 
+    display: flex; 
+}
+.contactForm 
+{ 
+    width: 40%; 
+    padding: 40px; 
+    background: #2B303A;
+}
+.contactForm .inputBox{ 
+    position: relative; 
+    width: 100%; 
+    margin-top: 10px; 
+}
+.contactForm .inputBox input {
+    width: 100%;  
+    padding: 5px 0; 
+    font-size: 16px; 
+    margin: 10px 0;  
+    border-radius: 5px;
+    border-style: none;
+    resize: none; 
+}
+.contactForm .inputBox textarea {
+    width: 100%;  
+    padding: 5px 0; 
+    font-size: 16px; 
+    margin: 10px 0;
+    border-radius: 5px;
+    border-style: none;
+    resize: none;   
+}
+.container button {
+    background: white;
+    width: 100px;
+    border: 0 ;
+    outline: none;
+    color: #EF5B5B;
+    height: 35px;
+    border-radius: 30px; /*gives the circular vibe*/
+    margin-top: 20px;
+} 
+.container .contactInfo .box .text{ 
+    display: flex; 
+    margin-left: 20px; 
+    font-size: 16px; 
+    color: #2B303A; 
+    flex-direction: column; 
+    font-weight: 300; 
+}
+
+.container .contactInfo .box .text h1{ 
+    font-size: 50px;
+}
+.contactForm h2{ 
+    color: white; 
+}                 
+@media (max-width: 991px){ 
+    .contact{ 
+        padding: 50px; 
+    }
+    .container{ 
+        flex-direction:column; 
+    }
+    .container .contactInfo, .contactForm { 
+        width: 100%; 
+    }
+    .container .contactInfo { 
+        width: auto; 
+        text-align: center;
+    }
+    .container .contactInfo .box {
+        padding: 10px; 
+        position: relative;
+
+    } 
+    .skills-container,.main { 
+        flex-direction:column;
+        align-items: center ;
+    }
+    .about-text p{ 
+        font-size: 20px;
+    }
+    .skills-container .prog h3{ 
+        margin-top: 50px; 
+    }
+    .about-text{ 
+        width: auto;
+    }  
+}
